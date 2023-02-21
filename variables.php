@@ -9,7 +9,7 @@
 $my_name = "Huỳnh Bảo Toàn"; //ví dụ đặt biến
 echo "Tôi tên là $my_name <br>";
 $myAge = 20;
-echo "Tuổi của tôi là: " . $myAge;
+echo "Tuổi của tôi là: " . $myAge . "<br>";
 // Scope variable
 $x = 5;
 $y = 10;
@@ -21,4 +21,4 @@ function myTest()
 }
 
 myTest();
-echo $y; // outputs 15
+echo $y . "<br>"; // outputs 15

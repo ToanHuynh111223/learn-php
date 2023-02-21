@@ -12,5 +12,5 @@ echo strrev($hello_word); //output: dlroW olleH
  */
 echo strpos($hello_word, 'l'); //output: 2
 echo strpos($hello_word, "World"); //output: 6
-//hàm thay thế ("từ muốn thay", "từ cần thay, chuỗi)
+//hàm thay thế ("từ muốn thay", "từ thay", chuỗi)
 echo str_replace("World", "Dolly", $hello_word); // outputs Hello Dolly!
